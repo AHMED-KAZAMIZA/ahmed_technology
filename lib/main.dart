@@ -29,26 +29,12 @@ class MyApp extends StatelessWidget {
           )  )  ),
       home: HomeScreen(),
       routes: {
-        'home_screen': (context) {
-          return HomeScreen();
-        },
-        'my_works': (context) {
-          return MyWorks();
-        },
-        'my_cv': (context) {
-          return MYCV();
-        },
-        'my_skills': (context) {
-          return MySkills();
-        },
-        'contact_me': (context) {
-          return ContactMe();
-        },
-
-        'cv_screen': (context) {
-          return CVScreen();
-        },
-
+        'home_screen': (context) => HomeScreen(),
+        'my_works': (context) => MyWorks(),
+        'my_cv': (context) => MYCV(),
+        'my_skills': (context) => MySkills(),
+        'contact_me': (context) => ContactMe(),
+        'cv_screen': (context) => CVScreen(),
           },
     );
   } }

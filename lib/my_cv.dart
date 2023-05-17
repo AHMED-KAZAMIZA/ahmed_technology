@@ -20,14 +20,14 @@ class MYCV extends StatelessWidget {
             SizedBox(height: 30),
             Row(mainAxisAlignment: MainAxisAlignment.center, children: [
               Container(
-                child: Text('أحمد أبوبكر أحمد الحاج',
+                child: Text('أحمد أبوبكر أحمد الحاج الحسن',
                     style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
-                        color: Color.fromRGBO(47, 67, 242, 1))),
+                        color: Colors.blue)),
               ),
               Icon(Icons.person,
-                  size: 40, color: Color.fromRGBO(47, 67, 242, 1))
+                  size: 40, color: Colors.blue)
             ]),
             SizedBox(height: 30),
             Container(
